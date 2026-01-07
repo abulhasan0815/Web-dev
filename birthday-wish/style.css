@@ -2,7 +2,7 @@ body {
     font-family: 'Happy Monkey', cursive;
     margin: 0;
     padding: 0;
-    background-color: #a2d2ff;
+    background: linear-gradient(#a2d2ff, #efb0c9);
     text-align: center;
     color: #ffffff;
     text-shadow: 0 0 2px #000000;
@@ -74,4 +74,5 @@ body {
 
 #gift-img-cheers:hover {
     background-image: url("images/cheers.gif");
+
 }
