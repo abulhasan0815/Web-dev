@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #182042;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.homescore, .guestscore {
+    font-size: 20px;
+    color: #F94561;
+    padding: 1px 10px;
+    background-color: #090000;
+    border-radius: 7px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.points {
+    padding: 15px;
+}
+
+.points > button {
+    border-radius: 7px;
+    padding: 10px;
+    background: none;
+    color: inherit
+}
